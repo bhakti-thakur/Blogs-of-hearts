@@ -1,0 +1,232 @@
+
+
+*{
+    font-family: "Hind Vadodara", sans-serif;
+}
+
+
+
+
+
+
+
+
+.navbar{
+    background-color: #539edb;
+    display: grid;
+    grid-template: 1fr/ 2fr 8fr 1fr;
+    padding: 1rem;
+}
+
+.name-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.75rem;
+}
+
+#logo{
+    padding: 1rem;
+}
+
+#acc{
+    background-color: transparent;
+    border: #66A7DC;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    background-color: #383954;
+    gap: 0rem;
+    padding: 4.5rem;
+    color: whitesmoke;
+}
+
+#heart{
+    padding-right: 5rem;
+    grid-row: span 2;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/*.header-item{
+    border: 1px solid white;
+}*/
+
+.name{
+    padding-top: 5rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+}
+
+.caption{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 2rem;
+}
+
+.middle{
+    background-color: #66A7DC;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+}
+
+.question{
+    color: #383954;
+    grid-column: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
+}
+
+.button-div{
+    padding: 1.5rem;
+    padding-bottom: 6rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button{
+    border: #66A7DC solid 1px;
+    background-color: transparent;
+}
+
+.clouds{
+    background-color: #66A7DC;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+  .footer{
+    background-color: #66A7DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read, .write, .update, .delete{
+    background-color: #66A7DC;
+}
+
+.intro{
+    background-color: #66A7DC;
+    color: #383954;
+    padding: 1.5rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+  }
+
+#new-post{
+    background-color: #87c1f1;
+    border: none;
+    border: #3684c4 solid 2px;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.new-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#post-button{
+    background-color: rgb(47, 200, 149);
+    color: #383954;
+    font-size: 1rem;
+    border: none;
+    border: rgb(31, 144, 106) solid 2px;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 6rem;
+}
+
+.post-btn{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: right;
+}
+
+
+.posted{
+    color: #383954;
+    font-size: 1.75rem;
+    background-color: #66A7DC;
+    padding: 3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.post{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #87c1f1;
+    border: #3684c4 solid 2px;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+/*.post{
+    background-color: #87c1f1;
+    border: #3684c4 solid 2px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 5rem;
+    padding: 1.5rem;
+}*/

@@ -1,0 +1,36 @@
+
+
+<%- include("partials/header.ejs") %>
+
+<div class="clouds">
+    <div class="cloud"> <img src="cloudy.png" alt="clouds" width="350rem"> </div>
+    <div class="cloud"> <img src="cloudy-flipped.png" alt="clouds" width="350rem"> </div>
+    <div class="cloud"> <img src="cloudy.png" alt="clouds" width="350rem"> </div>
+    <div class="cloud"> <img src="cloudy-flipped.png" alt="clouds" width="350rem"> </div>
+</div>
+
+<div class="write">
+
+    <div class="intro">
+        Write a blog:
+    </div>
+
+    <div class="new-p">
+
+        <form action="/post" method="post">
+            <textarea name="new-post" id="new-post" rows="20" cols="100" placeholder="Your thoughts today...">  </textarea>
+            <div class="post-btn">
+                <input type="submit" value="Post" id="post-button">
+            </div>
+            
+        </form>
+
+    </div>
+
+    
+
+</div>
+
+
+
+<%- include("partials/footer.ejs") %>
